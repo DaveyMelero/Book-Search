@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-// Import the ApolloServer class
+
 const { ApolloServer } = require('apollo-server-express');
 
 // Import the two parts of a GraphQL schema
@@ -9,7 +9,7 @@ const db = require('./config/connection');
 const { authMiddleware } = require('./utils/auth');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 const server = new ApolloServer({
   typeDefs,
