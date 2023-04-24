@@ -20,5 +20,13 @@
   },
   "dependencies": {
     "react-bootstrap": "^2.7.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveyMelero/Book-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaveyMelero/Book-Search/issues"
+  },
+  "homepage": "https://github.com/DaveyMelero/Book-Search#readme"
 }
